@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainDivHome{
+    width: 100%;
+    height: 100vh;
+    margin:auto;
+    border: 1px solid gray;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 70% 30% 20% 30% ;
+}
+
+#searchBoxHome{
+    background-image: url("../images/searchBacPic.png");
+    background-size:100%;
+    display: flex;
+    align-items: center;
+
+
+}
+#exploreCategoryHome{
+background-color: bisque;
+}
+#howTFWorks{
+    background-color: yellow;
+
+}
+#reviewsHome{
+    background-color: yellowgreen;
+}
+
+#searchInput{
+    /* background-color: antiquewhite; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+#searchInput h1{
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 192%;
+}
+#searchInput input{
+    width: 60%;
+    padding: 10px;
+    margin-left: 55px;
+    height: 34px;
+    border-radius: 7px 0 0 7px;
+    border: none;
+}
+#searchInput button{
+    width: 20%;
+    height: 34px;
+    border-radius: 0px 7px 7px 0px;
+    border: none;
+    background-color: #006ef7;
+}
+
+/* media  */
+
+@media only screen and (max-width: 940px){
+   
+    #mainDivHome{
+        grid-template-rows: 55% 30% 20% 30% ;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    
+    #searchInput h1{
+        color: white;
+        font-size: 130%;
+    }
+    #searchInput input{
+        width: 60%;
+        padding: 10px;
+        margin-left: 25px;
+        height: 34px;
+        border-radius: 7px 0 0 7px;
+        border: none;
+    }
+    #mainDivHome{
+        grid-template-rows: 40% 30% 20% 30% ;
+    }
+    }
+    

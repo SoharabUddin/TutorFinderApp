@@ -1,0 +1,55 @@
+#mainDivFooter{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    padding: 30px;
+}
+#footerCard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+#footer{
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 4px;
+    color: white;
+    
+}
+
+#footerDiv1{
+    /* background-color: blue; */
+    
+}
+#footerDiv2{
+    /* background-color: bisque; */
+    
+}
+#footerDiv3{
+    /* background-color: yellow; */
+}
+#footerDiv4{
+    /* background-color: yellowgreen; */
+}
+#copyRight{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+@media only screen and (max-width: 940px){
+
+}
+
+@media only screen and (max-width: 600px){
+    
+#footer{
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat();
+    
+}
+}
