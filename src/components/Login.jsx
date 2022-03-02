@@ -1,24 +1,24 @@
 import React  from "react";
-import "./Login.css";
+import Classes from "../Styles/Login.module.css";
 
 const Login =()=>{
     return(
         <>
-        <div className="ForNav"></div>
-        <div className="mainDiv">
-            <div class="container">
-                <h1 className="shadows">Login</h1> 
+        <div className={Classes.ForNav}></div>
+        <div className={Classes.mainDiv}>
+            <div className={Classes.container}>
+                <h1 className={Classes.shadows}>Login</h1> 
             </div>
-            <div className="loginDiv">
+            <div className={Classes.loginDiv}>
                 <form>
-                <input type="text" class="form__input" id="name"
+                <input type="text" className={Classes.form__input} id="name"
                      placeholder="User Name" required="" />
-                <label for="name" class="form__label">User Name</label>
-                <input type="password" class="form__input" id="name"   
+                <label for="name" className={Classes.form__label}>User Name</label>
+                <input type="password" className={Classes.form__input} id="name"   
                     placeholder="Password" required="" />
-                <label for="name" class="form__label">Password</label>
+                <label for="name" className={Classes.form__label}>Password</label>
                 </form>
-                <div className="btnDiv">
+                <div className={Classes.btnDiv}>
                     <span><a href="#"></a></span>
                 </div>
             </div>

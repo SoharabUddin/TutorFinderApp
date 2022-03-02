@@ -13,16 +13,16 @@ import SignUp from './components/SignUp';
 const App=()=>{
     return(
       <>
-      <Navbar/>
+      {/* <Navbar/> */}
       <SignUp/>
-      {/* <Routes>
+      {/* <Routes> 
         <Route path="/About" element={<About/>} /> 
         <Route path="/Contact" element={<Contact/>} /> 
         <Route path="/login" element={<Login/>} /> 
         <Route path="/home" element={<Home/>} /> 
         <Route  path="*" element={<Error/>} /> 
         
-      </Routes> */}
+      </Routes>  */}
       </>
     )
 }
