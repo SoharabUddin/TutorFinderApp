@@ -1,8 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 #mainDivHome{
     width: 100%;
@@ -14,7 +10,7 @@
 }
 
 #searchBoxHome{
-    background-image: url("../images/searchBacPic.png");
+    background-image: url("../assets/searchBacPic.png");
     background-size:100%;
     display: flex;
     align-items: center;
@@ -25,42 +21,44 @@
 }
 #searchInput{
     /* background-color: antiquewhite; */
-    display: inline-block;
+    width: 900px;
+    display: inline;
     align-items: center;
     justify-content: center;
 
 }
 #searchInput h1{
-    text-align: center;
     margin: 10px;
+    margin-left: 75px ;
     color: white;
     font-size: 192%;
 }
 #searchInput input{
-    width: 60%;
+    width: 490px;
     padding: 10px;
-    margin-left: 55px;
-    height: 34px;
+    margin-left: 75px;
+    margin-right:0px;
+    height: 50px;
     border-radius: 7px 0 0 7px;
     border: none;
+    font-size: 25px;
 }
-#searchInput button{
-    width: 20%;
-    height: 34px;
+#searchInput input[type="submit"]{
+    width: 200px;
+    height: 50px;
     border-radius: 0px 7px 7px 0px;
+    margin-left: 0px;
     border: none;
     background-color: #006ef7;
 }
 
-#exploreCategoryHome{
-background-color: bisque;
-height: 450px;
-}
-#howTFWorks{
-    background-color: yellow;
-    height: 430px;
 
+#exploreCategoryHome{
+background-color:rgb(21, 131, 112);
+width: 100%;
+padding: 10px
 }
+
 #reviewsHome{
     background-color: yellowgreen;
     height: 430px;

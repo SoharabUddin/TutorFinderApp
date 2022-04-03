@@ -2,7 +2,9 @@
   "name": "tutorfinder",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:4000",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@mui/icons-material": "^5.3.0",
     "@mui/material": "^5.3.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -15,6 +17,7 @@
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-select": "^5.2.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
